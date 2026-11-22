@@ -1,25 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Engineering Portfolio | Harrison Guirguis</title>
+    <title>Portfolio | Harrison Guirguis</title>
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" href="assets/css/main.css">
     <script src="assets/js/main.js" defer></script>
 </head>
 <body>
+  <div class="wrapper">
     <header>
-        <nav></nav>
+      <div class="brand">HARRISON GUIRGUIS</div>
+      <nav class="menu" aria-label="Primary">
+        <a href="#top">Top</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </header>
-    <main>
-        <h1>Harrison Guirguis Portfolio Website</h1>
-        <p>There's not much yet, but it'll grow fast!</p>
 
-        <section id="hero"></section>
-        <section id="projects"></section>
-        <section id="contact"></section>
+    <main>
+      <section class="hero-section" id="about">
+        <span class="hero-tag">Mechatronics Engineer</span>
+        <h1>Mechanical design, electrical systems, embedded firmware, elegant solutions</h1>
+        <p>Currently an Additive Manufacturing Technician, CAD Tutor, and Mechanical Engineering student at Embry-Riddle Aeronautical University. <a href="aboutme.html">Read more here!</a></p>
+      </section>
+
+      <h2 class="section-title" id="projects">Featured Projects</h2>
+      <section class="projects-grid">
+        <article class="project-card">
+          <div>
+            <div class="project-image">
+              <img src="https://placehold.co/400x300/eaf1ed/3b5a48?text=Personality+Core+Animatronic" alt="Personality core micro animatronic">
+            </div>
+            <div class="project-meta">CAD | Additive Manufacturing | Microcontroller Robotics | Micro-Robotics</div>
+            <h3>"Personality Core" Animatronic</h3>
+            <p>Self-contained micro animatronic featuring a resin-printed shell, custom-designed internal linkages, and a selectable set of programmed "personalities."</p>
+          </div>
+          <a href="javascript:void(0);">More info coming soon!</a>
+          <!--<a href="project-detail.html" class="project-action">View project specs &rarr;</a>-->
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-image">
+              <img src="https://placehold.co/400x300/eaf1ed/3b5a48?text=Condenser+Microphone" alt="Custom condenser microphone and preamplifier">
+            </div>
+            <div class="project-meta">Signal Integrity | Product Design | PCB Design | DFAM | Electrical Engineering</div>
+            <h3>Condenser Microphone with Embedded Preamplifier</h3>
+            <p>Custom USB-C studio microphone featuring a modified open-source PCB, a composite-material housing with an integrated Faraday cage, and a 3D-printed articulating boom arm with friction joints and vibration isolation.</p>
+          </div>
+          <a href="javascript:void(0);">More info coming soon!</a>
+          <!--<a href="project-detail.html" class="project-action">View project specs &rarr;</a>-->
+        </article>
+
+        <article class="project-card">
+          <div>
+            <div class="project-image">
+              <img src="https://placehold.co/400x300/eaf1ed/3b5a48?text=%3f" alt="Mystery future project">
+            </div>
+            <div class="project-meta">R&amp;D | Rapid Prototyping | Your Idea Here</div>
+            <h3>Next Build: In Progress</h3>
+            <p>I'm always working on something new. Have a tough engineering challenge, a custom build in mind, or an open role? Let's make it happen.</p>
+          </div>
+          <a href="#contact" class="project-action">Reach out here &rarr;</a>
+        </article>
+
+      <section class="contact-section" id="contact">
+        <h2>Let's build something remarkable.</h2>
+        <p>Whether you have an engineering challenge, an interesting mechanical project, or a potential opportunity, my inbox is always open.</p>
+        <a href="mailto:harrisonguirguis@gmail.com" class="contact-btn">Get in Touch</a>
+      </section>
     </main>
-    <footer></footer>
+
+    <footer>
+      <p>&copy; 2026 Harrison Guirguis. Built with precision and care.</p>
+    </footer>
+  </div>
 </body>
 </html>
